@@ -1,5 +1,3 @@
--- delete from hotel_bookings;
-
 with step1 as (
 select 	hotel_bookings."Name",
 		hotel_bookings."City",
